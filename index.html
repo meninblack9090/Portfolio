@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Umalay - UI/UX Designer Portfolio. Explore my creative work, services, and get in touch." />
+  <title>Umalay | UI/UX Designer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" id="logo-link">UMALAY</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+
+        <li><a href="#about" class="nav-link" id="nav-about">About me</a></li>
+        <li><a href="#portfolio" class="nav-link" id="nav-portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">Contact me</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary nav-hire" id="nav-hire-btn">Hire Me</a>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text" id="hero-text">
+        <p class="hero-greeting">Hi I am</p>
+        <h2 class="hero-name">Umalay</h2>
+        <h1 class="hero-title">Web Developer/Mobile App Developer</h1>
+
+        <div class="social-icons" id="social-icons">
+          <a href="https://www.instagram.com/dedust_adam/" class="social-icon" id="social-instagram"
+            aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon" id="social-linkedin" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-icon" id="social-dribbble" aria-label="Dribbble">
+            <i class="fab fa-dribbble"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper" id="hero-image-wrapper">
+        <div class="hero-circle">
+          <img src="Umalayy.jpg" alt="Umalay" class="hero-img" id="hero-profile-img" />
+        </div>
+        <div class="circle-ring ring-1"></div>
+        <div class="circle-ring ring-2"></div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-bar" id="stats-bar">
+      <div class="stat-item">
+        <span class="stat-plus">3 years</span>
+        <p class="stat-label">Experiences</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-plus">34+</span>
+        <p class="stat-label">Project done</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-plus">35+</span>
+        <p class="stat-label">Happy Clients</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section-padding" id="about">
+    <div class="container about-container">
+      <div class="about-text-side">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <p class="about-bio">
+          I'm a Web Developer and Mobile App Developer with 3 years of experience in crafting digital experiences
+          that are both beautiful and functional. I believe great design solves real problems and
+          creates meaningful connections between brands and their users.
+        </p>
+        <p class="about-bio">
+          My expertise spans user research, wireframing, prototyping, and visual design. I work
+          closely with clients to understand their goals and deliver solutions that exceed expectations.
+        </p>
+
+        <a href="#contact" class="btn btn-primary" id="about-hire-btn">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO SECTION ========== -->
+  <section class="portfolio section-padding" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <p class="section-desc">A curated selection of my best projects.</p>
+      </div>
+
+      <div class="portfolio-filters" id="portfolio-filters">
+
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+        <div class="portfolio-card" data-category="ui" id="port-1">
+          <div class="port-img-wrap">
+            <div class="port-placeholder ui-bg">
+              <i class="fas fa-shield-alt"></i>
+              <span>Cybersecurity</span>
+            </div>
+            <div class="port-overlay">
+              <h3>CyberProj</h3>
+              <p>Cybersecurity</p>
+              <a href="https://github.com/meninblack9090/CyberProj" class="port-link"><i
+                  class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section-padding" id="contact">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+        <p class="contact-desc">Have a project in mind? Let's create something amazing together. Feel free to reach out!
+        </p>
+
+        <div class="contact-details">
+          <div class="contact-item" id="contact-email">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">umalay.justin@dnsc.edu.ph</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p class="contact-value">+63 0123456789</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-location">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-label">Location</p>
+              <p class="contact-value">Philippines</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-group">
+          <input type="text" id="form-name" name="name" placeholder="Your Name" class="form-input" required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="form-email" name="email" placeholder="Your Email" class="form-input" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="form-subject" name="subject" placeholder="Subject" class="form-input" />
+        </div>
+        <div class="form-group">
+          <textarea id="form-message" name="message" placeholder="Your Message" class="form-input form-textarea"
+            rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="contact-submit-btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div class="form-success" id="form-success">
+          <i class="fas fa-check-circle"></i> Message sent successfully!
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <a href="#home" class="logo" id="footer-logo">UMALAY</a>
+      <p class="footer-text">© 2026 Umalay. Crafted with <span class="heart">♥</span> and creativity.</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/dedust_adam/" class="social-icon" id="footer-instagram"
+          aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <div class="footer-socials">
+          <div class="footer-socials">
+            <a href="https://web.facebook.com/justin.umalay" class="social-icon" id="footer-facebook"
+              aria-label="facebook"><i class="fab fa-facebook"></i></a>
+            <div class="footer-socials">
+
+            </div>
+          </div>
+  </footer>
+
+  <!-- Scroll To Top -->
+  <button class="scroll-top" id="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
